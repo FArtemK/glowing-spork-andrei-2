@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><root mode="0" new_person="true" authorized="true" birthdate="27.01.2004" fio="Иванов Андрей Юрьевич" gender="1">
+	<battery><test code="1005" name="kb99_1c_start_w2" time_limit="0" navigate="true" control_scroll="false" control="false" use_conclusion="false" use_stoping="false" time="519" guid="c42c03f1-c64e-11f0-879a-0ae0afa724ea" Battery_guid="6b287f43-c148-11f0-bbb9-8ce9ee7db5f8" fill="0" conclusion="" mode="Не пройден" registered="false" fb_user_guid="" fb_user_name="" fb_link_guid="" fb_link_name="" grade_unit_guid="" grade_unit_name="" grade_post_guid="" grade_post_name="">
+		<fact_data><section id="1005_0" code="0" name="kb99_1c_start_w2" shake="false" sample="0" time_limit="0" time="519">
+			<qw name="Для чего предназначен объект конфигурации Регистр накопления?" id="1005_0_1" code="1" valid_type="0" img="" time_limit="0" time="20">
+				<an name="Для хранения справочной информации" id="1005_0_1_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для накопления информации о движениях материальных и денежных средств" id="1005_0_1_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Для создания отчетов" id="1005_0_1_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для хранения настроек пользователей" id="1005_0_1_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Почему следует использовать регистры накопления, хотя информация содержится в документах?" id="1005_0_2" code="2" valid_type="0" img="" time_limit="0" time="9">
+				<an name="Для ускорения работы интерфейса" id="1005_0_2_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для экономии места в базе данных" id="1005_0_2_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для быстрого получения итоговых данных без обхода всех документов" id="1005_0_2_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Для удобства пользователей" id="1005_0_2_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое измерения регистра накопления?" id="1005_0_3" code="3" valid_type="0" img="" time_limit="0" time="42">
+				<an name="Размеры таблицы в базе данных" id="1005_0_3_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Реквизиты, определяющие разрез хранения и получения итоговых данных" id="1005_0_3_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Количество записей в регистре" id="1005_0_3_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Единицы измерения ресурсов" id="1005_0_3_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое ресурсы регистра накопления?" id="1005_0_4" code="4" valid_type="0" img="" time_limit="0" time="7">
+				<an name="Системные требования для работы" id="1005_0_4_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Объекты конфигурации" id="1005_0_4_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Данные, которые накапливаются в разрезе измерений (количество, сумма и т.п.)" id="1005_0_4_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Пользователи системы" id="1005_0_4_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое реквизиты регистра накопления?" id="1005_0_5" code="5" valid_type="0" img="" time_limit="0" time="6">
+				<an name="То же самое, что измерения" id="1005_0_5_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="То же самое, что ресурсы" id="1005_0_5_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Дополнительная информация о записях регистра, не участвующая в итогах" id="1005_0_5_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Обязательные поля регистра" id="1005_0_5_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое движения регистра?" id="1005_0_6" code="6" valid_type="0" img="" time_limit="0" time="8">
+				<an name="Перемещение данных между таблицами" id="1005_0_6_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Изменения в структуре регистра" id="1005_0_6_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Записи в регистре, созданные документами при проведении" id="1005_0_6_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="События регистра" id="1005_0_6_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое регистратор в контексте регистра накопления?" id="1005_0_7" code="7" valid_type="0" img="" time_limit="0" time="7">
+				<an name="Пользователь, создавший запись" id="1005_0_7_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Программа для записи данных" id="1005_0_7_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Документ, который создает движения в регистре при проведении" id="1005_0_7_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Администратор базы данных" id="1005_0_7_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Какие виды регистров накопления существуют?" id="1005_0_8" code="8" valid_type="0" img="" time_limit="0" time="12">
+				<an name="Простые и сложные" id="1005_0_8_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Временные и постоянные" id="1005_0_8_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Остатки и обороты" id="1005_0_8_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Основные и вспомогательные" id="1005_0_8_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что показывает регистр накопления вида Остатки?" id="1005_0_9" code="9" valid_type="0" img="" time_limit="0" time="7">
+				<an name="Все движения по документам" id="1005_0_9_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Историю изменений" id="1005_0_9_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Текущее состояние остатков в разрезе измерений" id="1005_0_9_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Обороты за период" id="1005_0_9_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что показывает регистр накопления вида Обороты?" id="1005_0_10" code="10" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Текущие остатки" id="1005_0_10_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Справочную информацию" id="1005_0_10_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Обороты по приходу и расходу за период без остатков" id="1005_0_10_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Список документов" id="1005_0_10_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Как создать движения документа в регистре накопления?" id="1005_0_11" code="11" valid_type="0" img="" time_limit="0" time="7">
+				<an name="Вручную через интерфейс" id="1005_0_11_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Автоматически при сохранении" id="1005_0_11_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Программно в процедуре проведения документа или через конструктор движений" id="1005_0_11_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Через специальную обработку" id="1005_0_11_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое виртуальная таблица Остатки регистра накопления?" id="1005_0_12" code="12" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Временная таблица в памяти" id="1005_0_12_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Таблица для отладки" id="1005_0_12_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Таблица, возвращающая рассчитанные остатки на указанный момент времени" id="1005_0_12_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Таблица удаленных записей" id="1005_0_12_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое виртуальная таблица ОстаткиИОбороты?" id="1005_0_13" code="13" valid_type="0" img="" time_limit="0" time="42">
+				<an name="Объединение двух регистров" id="1005_0_13_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Таблица для экспорта данных" id="1005_0_13_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Таблица, возвращающая остатки и обороты за период" id="1005_0_13_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Архивная таблица" id="1005_0_13_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Как обойти табличную часть документа средствами встроенного языка?" id="1005_0_14" code="14" valid_type="0" img="" time_limit="0" time="20">
+				<an name="Использовать запрос" id="1005_0_14_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Использовать отчет" id="1005_0_14_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Использовать цикл Для Каждого по коллекции строк табличной части" id="1005_0_14_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Использовать форму списка" id="1005_0_14_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Какой метод используется для добавления новой записи в набор движений регистра?" id="1005_0_15" code="15" valid_type="0" img="" time_limit="0" time="56">
+				<an name="Записать()" id="1005_0_15_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Создать()" id="1005_0_15_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Добавить()" id="1005_0_15_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Вставить()" id="1005_0_15_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Для чего предназначен объект конфигурации Отчет?" id="1005_0_16" code="16" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Для ввода данных" id="1005_0_16_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для печати документов" id="1005_0_16_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для анализа и представления информации из базы данных" id="1005_0_16_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Для настройки интерфейса" id="1005_0_16_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое Система компоновки данных (СКД)?" id="1005_0_17" code="17" valid_type="0" img="" time_limit="0" time="6">
+				<an name="База данных для отчетов" id="1005_0_17_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Язык программирования" id="1005_0_17_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Универсальный механизм для создания отчетов с настройками и группировками" id="1005_0_17_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Модуль для работы с данными" id="1005_0_17_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое схема компоновки данных?" id="1005_0_18" code="18" valid_type="0" img="" time_limit="0" time="6">
+				<an name="План работы отчета" id="1005_0_18_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Структура базы данных" id="1005_0_18_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Описание источников данных, полей, настроек и структуры отчета" id="1005_0_18_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Алгоритм расчета" id="1005_0_18_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое набор данных в схеме компоновки?" id="1005_0_19" code="19" valid_type="0" img="" time_limit="0" time="10">
+				<an name="Коллекция записей" id="1005_0_19_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Массив значений" id="1005_0_19_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Источник данных для отчета, определяемый запросом или объектом" id="1005_0_19_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Таблица результата" id="1005_0_19_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Какие элементы структуры можно использовать в отчете СКД?" id="1005_0_20" code="20" valid_type="0" img="" time_limit="0" time="7">
+				<an name="Только таблицы" id="1005_0_20_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Только диаграммы" id="1005_0_20_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Таблицы, диаграммы, группировки, детальные записи" id="1005_0_20_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Только списки" id="1005_0_20_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое ресурс в схеме компоновки данных?" id="1005_0_21" code="21" valid_type="0" img="" time_limit="0" time="12">
+				<an name="Источник данных" id="1005_0_21_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Измерение" id="1005_0_21_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Числовое поле, для которого можно рассчитывать итоги" id="1005_0_21_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Параметр отчета" id="1005_0_21_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое настройки в схеме компоновки данных?" id="1005_0_22" code="22" valid_type="0" img="" time_limit="0" time="4">
+				<an name="Параметры подключения к базе" id="1005_0_22_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Права доступа" id="1005_0_22_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Отборы, группировки, порядок сортировки и оформление отчета" id="1005_0_22_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Свойства объекта" id="1005_0_22_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое условное оформление в отчете?" id="1005_0_23" code="23" valid_type="0" img="" time_limit="0" time="10">
+				<an name="Форматирование ячеек вручную" id="1005_0_23_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Стандартные стили" id="1005_0_23_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Автоматическое изменение оформления элементов отчета в зависимости от условий" id="1005_0_23_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Цветовая схема интерфейса" id="1005_0_23_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое пользовательские настройки отчета?" id="1005_0_24" code="24" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Настройки программиста" id="1005_0_24_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Параметры конфигурации" id="1005_0_24_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Настройки, которые может изменять пользователь при формировании отчета" id="1005_0_24_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Права доступа пользователя" id="1005_0_24_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Для чего предназначен объект конфигурации Макет?" id="1005_0_25" code="25" valid_type="0" img="" time_limit="0" time="6">
+				<an name="Для создания схемы базы данных" id="1005_0_25_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для описания алгоритмов" id="1005_0_25_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для хранения табличных документов, текстов, схем компоновки данных" id="1005_0_25_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Для настройки интерфейса" id="1005_0_25_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое табличный документ?" id="1005_0_26" code="26" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Электронная таблица Excel" id="1005_0_26_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Таблица базы данных" id="1005_0_26_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Документ, состоящий из областей ячеек, используемый для вывода и печати" id="1005_0_26_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Форма списка" id="1005_0_26_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое область макета?" id="1005_0_27" code="27" valid_type="0" img="" time_limit="0" time="6">
+				<an name="Весь макет целиком" id="1005_0_27_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Группа объектов конфигурации" id="1005_0_27_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Выделенная часть табличного документа с именем для программного обращения" id="1005_0_27_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Раздел интерфейса" id="1005_0_27_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Какая разница между заполнением ячейки текстом и параметром?" id="1005_0_28" code="28" valid_type="0" img="" time_limit="0" time="13">
+				<an name="Параметр нельзя изменить" id="1005_0_28_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Текст выводится жирным шрифтом" id="1005_0_28_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Параметр заменяется значением при выводе, текст выводится как есть" id="1005_0_28_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Параметр сохраняется в базе" id="1005_0_28_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое шаблон в ячейке табличного документа?" id="1005_0_29" code="29" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Готовая форма" id="1005_0_29_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Образец оформления" id="1005_0_29_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Текст с параметрами в фигурных скобках, заменяемыми значениями" id="1005_0_29_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Макрос для автоматизации" id="1005_0_29_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Как вывести область макета в табличный документ программно?" id="1005_0_30" code="30" valid_type="0" img="" time_limit="0" time="6">
+				<an name="Использовать метод Показать()" id="1005_0_30_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Использовать метод Напечатать()" id="1005_0_30_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Использовать метод Вывести() объекта табличного документа" id="1005_0_30_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Использовать метод Добавить()" id="1005_0_30_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое конструктор печати в 1С:EDT?" id="1005_0_31" code="31" valid_type="0" img="" time_limit="0" time="9">
+				<an name="Программа для создания отчетов" id="1005_0_31_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Визуальный редактор форм" id="1005_0_31_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Инструмент для визуального создания макетов табличных документов" id="1005_0_31_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Генератор кода" id="1005_0_31_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Для чего предназначен объект конфигурации Регистр сведений?" id="1005_0_32" code="32" valid_type="0" img="" time_limit="0" time="7">
+				<an name="Для накопления остатков" id="1005_0_32_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для регистрации документов" id="1005_0_32_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для хранения информации, не требующей накопления итогов" id="1005_0_32_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Для создания справочников" id="1005_0_32_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Чем отличается регистр сведений от регистра накопления?" id="1005_0_33" code="33" valid_type="0" img="" time_limit="0" time="10">
+				<an name="Регистр сведений быстрее работает" id="1005_0_33_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр сведений не накапливает итоги, а хранит актуальные значения" id="1005_0_33_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Регистр накопления имеет больше реквизитов" id="1005_0_33_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр сведений не имеет измерений" id="1005_0_33_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое периодический регистр сведений?" id="1005_0_34" code="34" valid_type="0" img="" time_limit="0" time="12">
+				<an name="Регистр, создающийся периодически" id="1005_0_34_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр с датой создания" id="1005_0_34_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр, хранящий историю изменения данных во времени с периодом действия" id="1005_0_34_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Регистр для периодических отчетов" id="1005_0_34_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое период действия записи в периодическом регистре?" id="1005_0_35" code="35" valid_type="0" img="" time_limit="0" time="9">
+				<an name="Срок хранения записи" id="1005_0_35_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Дата создания записи" id="1005_0_35_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Дата, с которой действует данная запись до появления следующей" id="1005_0_35_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Интервал времени между записями" id="1005_0_35_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Как получить актуальное значение из периодического регистра сведений?" id="1005_0_36" code="36" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Выбрать последнюю запись" id="1005_0_36_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Использовать максимальную дату" id="1005_0_36_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Использовать виртуальную таблицу СрезПоследних" id="1005_0_36_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Отсортировать по дате убывания" id="1005_0_36_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое независимый регистр сведений?" id="1005_0_37" code="37" valid_type="0" img="" time_limit="0" time="13">
+				<an name="Регистр без связей с другими объектами" id="1005_0_37_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр, записи которого не имеют регистратора и создаются вручную" id="1005_0_37_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Регистр для справочной информации" id="1005_0_37_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр без измерений" id="1005_0_37_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое подчиненный регистр сведений?" id="1005_0_38" code="38" valid_type="0" img="" time_limit="0" time="7">
+				<an name="Дочерний регистр в иерархии" id="1005_0_38_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр с владельцем" id="1005_0_38_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Регистр, записи которого создаются документами-регистраторами при проведении" id="1005_0_38_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Зависимый от другого регистра" id="1005_0_38_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Для чего предназначен объект конфигурации Перечисление?" id="1005_0_39" code="39" valid_type="0" img="" time_limit="0" time="6">
+				<an name="Для создания списков элементов" id="1005_0_39_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для нумерации документов" id="1005_0_39_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Для хранения фиксированного набора значений, определенных в конфигурации" id="1005_0_39_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Для перечисления пользователей" id="1005_0_39_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Чем перечисление отличается от справочника?" id="1005_0_40" code="40" valid_type="0" img="" time_limit="0" time="18">
+				<an name="Перечисление работает быстрее" id="1005_0_40_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Значения перечисления фиксированы в конфигурации и недоступны для изменения пользователем" id="1005_0_40_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Перечисление может быть иерархическим" id="1005_0_40_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Справочник не может иметь предопределенные элементы" id="1005_0_40_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Как получить значение перечисления во встроенном языке?" id="1005_0_41" code="41" valid_type="0" img="" time_limit="0" time="10">
+				<an name="Использовать метод НайтиПоНаименованию()" id="1005_0_41_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Прочитать из базы данных" id="1005_0_41_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Обратиться через Перечисления.ИмяПеречисления.ИмяЗначения" id="1005_0_41_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Использовать конструктор" id="1005_0_41_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Можно ли изменять значения перечисления в режиме 1С:Предприятие?" id="1005_0_42" code="42" valid_type="0" img="" time_limit="0" time="9">
+				<an name="Да, через специальную форму" id="1005_0_42_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Да, если есть права администратора" id="1005_0_42_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Нет, значения определяются только в конфигураторе" id="1005_0_42_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Да, но только новые значения" id="1005_0_42_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое представление элемента перечисления?" id="1005_0_43" code="43" valid_type="0" img="" time_limit="0" time="5">
+				<an name="Его внутреннее имя" id="1005_0_43_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Его код" id="1005_0_43_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Текст, который видит пользователь в интерфейсе" id="1005_0_43_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Его описание" id="1005_0_43_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Что такое ВСД в системе Меркурий?" id="1005_0_44" code="44" valid_type="0" img="" time_limit="0" time="14">
+				<an name="Ветеринарная служба доставки" id="1005_0_44_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Внутренний складской документ" id="1005_0_44_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Ветеринарно-сопроводительный документ" id="1005_0_44_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Ведомость складского движения" id="1005_0_44_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+			<qw name="Какие виды продукции требуют оформления ВСД?" id="1005_0_45" code="45" valid_type="0" img="" time_limit="0" time="26">
+				<an name="Только мясо и мясопродукты" id="1005_0_45_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Только молочная продукция" id="1005_0_45_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+				<an name="Все подконтрольные товары животного происхождения" id="1005_0_45_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+				<an name="Только импортная продукция" id="1005_0_45_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+			</qw>
+		</section></fact_data>
+		
+	</test></battery>
+</root>
